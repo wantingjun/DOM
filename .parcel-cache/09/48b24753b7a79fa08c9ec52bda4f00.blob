@@ -1,0 +1,11 @@
+window.dom={
+    create(string){ //新增节点
+        const container = document.createElement("template");
+        container.innerHTML=string.trim();
+        return container.content.firstChild
+    },
+    after(node,node2){
+        
+
+    }
+}

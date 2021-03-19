@@ -1,0 +1,29 @@
+window.dom={
+    create(string){ //新增节点
+        const container = document.createElement("template");
+        container.innerHTML=string.trim();
+        return container.content.firstChild
+    },
+    after(node,node2){ //nodeInsertAfter
+        console.log(node2, node.nextSibling)
+        node.parentNode.insertBefore(node2, node.nextSibling)
+    },
+    before(node,node2){ //新增哥哥
+        node.parentNode.insertBefore(node2,node)
+    },
+    append(parent,node){ // 新增儿子
+        parent.appendChild(node)
+    },
+    wrap(node,parent){ //新增父亲
+        dom.before(node,parent)// parent先放到节点node前面
+        dom.append(parent,node) // 把node放到parent下面
+    },
+    remove(node){
+        node.parentNode.removeChild(node)
+        return node
+    },
+    empty(node){
+        //node.innerHTML=''
+        node.childNodes
+    }
+}

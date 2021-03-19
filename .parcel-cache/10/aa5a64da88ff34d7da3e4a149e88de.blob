@@ -1,0 +1,39 @@
+const div = dom.create('<div>newdiv</div>')
+console.log(div)
+
+dom.after(test,div)
+const div3 = dom.create("<div id='parent'></div>")
+dom.wrap(test,div3)
+
+const node = dom.empty(window.empty)
+console.log(node)
+
+dom.text(test,'新的文本内容')
+
+dom.style(test,{border:'1px solid red',color:'green'})
+dom.style(test,'border')
+dom.style(test,'border','1px solid blue')
+
+dom.class.add(test,'red')
+dom.class.add(test,'blue')
+dom.class.remove(test,'red')
+console.log(dom.class.has(test,'red'))
+
+const fn=()=>{
+    console.log('click111')
+}
+dom.on(test,'click',fn)
+dom.off(test,'click',fn)
+
+const testDiv = dom.find('#test')[0]
+console.log('find',testDiv)
+const test2 = dom.find('#test2')[0]
+console.log(dom.find('.blue',test2))
+
+
+console.log('parent',dom.parent(test))
+
+console.log(dom.find('#s2')[0])
+console.log(dom.sibling(dom.find('#s2')[0]))
+
+console.log(dom.next(dom.find('#s2')[0]))

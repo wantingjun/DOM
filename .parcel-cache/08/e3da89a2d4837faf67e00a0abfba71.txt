@@ -1,0 +1,11 @@
+10
+41C:\Users\Tingjun\Desktop\dom1\src\main.js132606200195006927 0
+34C:\Users\Tingjun\Desktop\dom1\dist132606200196205918 1
+33C:\Users\Tingjun\Desktop\dom1\src132605905011783732 1
+56C:\Users\Tingjun\Desktop\dom1\dist\index.9b0ae0e5.js.map132606200196176871 0
+52C:\Users\Tingjun\Desktop\dom1\dist\index.9b0ae0e5.js132606200196136962 0
+40C:\Users\Tingjun\Desktop\dom1\src\dom.js132606190370097811 0
+44C:\Users\Tingjun\Desktop\dom1\src\index.html132606197551876998 0
+56C:\Users\Tingjun\Desktop\dom1\dist\index.bd78eeec.js.map132606200196176871 0
+52C:\Users\Tingjun\Desktop\dom1\dist\index.bd78eeec.js132606200196136962 0
+45C:\Users\Tingjun\Desktop\dom1\dist\index.html132606200196136962 0

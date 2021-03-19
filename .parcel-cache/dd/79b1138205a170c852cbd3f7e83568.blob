@@ -1,0 +1,5 @@
+const div = dom.create('<div>newdiv</div>')
+console.log(div)
+
+dom.after(test,div)
+const div3 = dom.create()

@@ -1,0 +1,15 @@
+const div = dom.create('<div>newdiv</div>')
+console.log(div)
+
+dom.after(test,div)
+const div3 = dom.create("<div id='parent'></div>")
+dom.wrap(test,div3)
+
+const node = dom.empty(window.empty)
+console.log(node)
+
+dom.text(test,'新的文本内容')
+
+dom.style(test,{border:'1px solid red',color:'green'})
+dom.style(test,'border')
+dom.style(test,'border','1px solid blue')

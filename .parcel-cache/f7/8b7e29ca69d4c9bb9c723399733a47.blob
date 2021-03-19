@@ -1,0 +1,8 @@
+const div = dom.create('<div>newdiv</div>')
+console.log(div)
+
+dom.after(test,div)
+const div3 = dom.create("<div id='parent'></div>")
+dom.wrap(test,div3)
+
+ dom.remove(test)
